@@ -1,0 +1,89 @@
+.cart-container {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  padding: 10px 30px 20px 30px;
+  background: #f5f5f5;
+}
+.cart-image {
+  width: 100%;
+  height: 200px;
+  /* display: flex;
+  justify-content: center; */
+  margin-bottom: 2rem;
+}
+.cart-image img {
+  width: 100%;
+  object-fit: cover;
+}
+.cart-title {
+  color: #131010;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.cart-subtitle {
+  color: #808080;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.cart-price {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  height: auto;
+  border: 1px solid #f5f5f5;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+} */
+
+/* custom mui */
+.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-hdhxen-MuiButtonBase-root-MuiIconButton-root {
+  background-color: #131010;
+}
+/* MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-84mkcn-MuiPaper-root-MuiCard-root */
+.css-84mkcn-MuiPaper-root-MuiCard-root {
+  background-color: #f5f5f5 !important;
+}
+.MuiButtonBase-root.MuiCardActionArea-root.css-1b2guk2-MuiButtonBase-root-MuiCardActionArea-root {
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+/* responsibility */
+@media only screen and (max-width: 500px) {
+  .cart-title {
+    font-size: 0.9rem;
+  }
+  .cart-subtitle {
+    font-size: 0.7rem;
+  }
+  .cart-price {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+}

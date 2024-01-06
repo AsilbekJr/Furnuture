@@ -1,5 +1,57 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+.container {
+  background: #66a96b;
+  padding: 10px;
+}
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Home */
+
+.btn {
+  height: 40px;
+  padding: 10px 15px;
+  /* background: #fff; */
+  border-radius: 40px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: #66a96b;
+  border-color: #fff;
+  color: #fff;
+}
+.btn.hover {
+  background: #66a96b;
+  border-color: #fff;
+  color: #fff;
+}
+
+swiper-container::part(bullet-active) {
+  background-color: rgb(55, 0, 255);
+}
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    padding: 4px 10px;
+    font-size: 0.8rem;
+  }
 }
